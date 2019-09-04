@@ -324,7 +324,7 @@ margin: 0 auto;
 #### 2. 块级元素居中：
 建议方案：父元素不写死 height，然后用内部块级元素的上下 margin 去撑开，上下 margin 相等即可达到居中效果。这样子元素的内容可以任意增删不影响居中布局。
 
-另外，通过 `vertical-align:middle` 实现CSS垂直居中是常使用的方法，但是有一点需要格外注意，vertical生效的前提是元素的 `display：inline-block`。
+另外，通过 `vertical-align: middle` 实现CSS垂直居中是常使用的方法，但是有一点需要格外注意，vertical生效的前提是元素的 `display：inline-block`。
 
 还有非常多奇技淫巧的居中方法，这里贴出博客拓展阅读：
 -  [CSS垂直居中的11种实现方式](https://www.cnblogs.com/zhouhuan/p/vertical_center.html)
