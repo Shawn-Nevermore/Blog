@@ -311,11 +311,11 @@ text-align: center;
 Tips：块级元素中的文字也会随着居中，但位置不变。
 
 #### 2. 块级元素居中：
-**定宽：**
+**定宽**：
 ```css
 margin: 0 auto;
 ```
-**不定宽：**参考[不定宽居中](https://blog.csdn.net/wen2017/article/details/83031692)
+**不定宽**：参考[不定宽居中](https://blog.csdn.net/wen2017/article/details/83031692)
 
 ## 垂直居中
 #### 1. 文字垂直居中：
