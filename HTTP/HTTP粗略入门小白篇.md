@@ -2,19 +2,21 @@
 
 # 目录
 
-1.  HTTP 简述
-2.  URL
-3.  HTTP 请求
-    -   格式
-    -   GET 请求
-    -   POST 请求
-    -   GET 和 POST 的区别
-    -   用 Chrome 发请求
-4.  HTTP 响应
-    -   格式
-    -   用 Chrome 查看响应
-5.  URI 和 URL 的区别
-6.  总结
+- [目录](#%e7%9b%ae%e5%bd%95)
+- [HTTP 简述](#http-%e7%ae%80%e8%bf%b0)
+- [URL](#url)
+- [HTTP 请求](#http-%e8%af%b7%e6%b1%82)
+  - [格式](#%e6%a0%bc%e5%bc%8f)
+  - [GET 请求](#get-%e8%af%b7%e6%b1%82)
+      - [curl 命令](#curl-%e5%91%bd%e4%bb%a4)
+  - [POST 请求](#post-%e8%af%b7%e6%b1%82)
+  - [GET 和 POST 的区别](#get-%e5%92%8c-post-%e7%9a%84%e5%8c%ba%e5%88%ab)
+  - [用 Chrome 发请求](#%e7%94%a8-chrome-%e5%8f%91%e8%af%b7%e6%b1%82)
+- [HTTP 响应](#http-%e5%93%8d%e5%ba%94)
+  - [格式](#%e6%a0%bc%e5%bc%8f-1)
+  - [用 Chrome 查看响应](#%e7%94%a8-chrome-%e6%9f%a5%e7%9c%8b%e5%93%8d%e5%ba%94)
+- [URI 和 URL 的区别](#uri-%e5%92%8c-url-%e7%9a%84%e5%8c%ba%e5%88%ab)
+- [总结](#%e6%80%bb%e7%bb%93)
 
 # HTTP 简述
 
