@@ -1,16 +1,27 @@
 ![](https://upload-images.jianshu.io/upload_images/16527477-2659c279f42a3369.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
 # 目录
-1. 概述
-2. 需要掌握的标签
-    -  <a\>（HTTP GET请求）
-    -  <form\>（HTTP POST请求）
-    -  <input\>
-    -  <table\>
-    -  <meta\>
-    -  空标签
-    -  可替换标签
-3.  语义化的理解
-4.  总结
+
+- [目录](#目录)
+- [概述](#概述)
+- [需要掌握的标签](#需要掌握的标签)
+  - [<a\>（HTTP GET请求）](#ahttp-get请求)
+      - [1.target属性](#1target属性)
+      - [2.download属性](#2download属性)
+      - [3.href属性](#3href属性)
+  - [<form\>（HTTP POST请求）](#formhttp-post请求)
+      - [1.method属性](#1method属性)
+      - [2.target属性](#2target属性)
+  - [<input\>](#input)
+      - [1.type="button" 和 type="submit"区别](#1typebutton-和-typesubmit区别)
+      - [2.type="checkbox"](#2typecheckbox)
+      - [3.type="radio"](#3typeradio)
+  - [<table\>](#table)
+  - [<meta\>](#meta)
+  - [空标签](#空标签)
+  - [可替换标签](#可替换标签)
+- [语义化的理解](#语义化的理解)
+- [总结](#总结)
       
 # 概述
 

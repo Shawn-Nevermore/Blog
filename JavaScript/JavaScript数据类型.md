@@ -2,13 +2,28 @@
 
 # 目录
 
-1.  [概述](#%e6%a6%82%e8%bf%b0)
-2.  [Number](#number)
-3.  [String](#string)
-4.  [Boolean](#string)
-5.  [Null 和 Undefined](#null-%e5%92%8c-undefined)
-6.  [Object](#object)
-7.  [总结](#%e6%80%bb%e7%bb%93)
+- [目录](#目录)
+- [概述](#概述)
+- [Number](#number)
+  - [Number 中的特殊数值](#number-中的特殊数值)
+      - [+0 和-0](#0-和-0)
+      - [NaN](#nan)
+      - [Infinity](#infinity)
+  - [与数值相关的全局方法](#与数值相关的全局方法)
+      - [parseInt()](#parseint)
+      - [parseFloat()](#parsefloat)
+- [String](#string)
+      - [转义：](#转义)
+      - [多行字符串：](#多行字符串)
+      - [字符串与数组：](#字符串与数组)
+- [Boolean](#boolean)
+- [Null 和 Undefined](#null-和-undefined)
+- [Object](#object)
+  - [键名（属性）](#键名属性)
+      - [delete 命令](#delete-命令)
+      - [for...in 和 hasOwnProperty()](#forin-和-hasownproperty)
+- [总结](#总结)
+
 
 # 概述
 

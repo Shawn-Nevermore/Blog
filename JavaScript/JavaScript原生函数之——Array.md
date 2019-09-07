@@ -2,12 +2,12 @@
 
 # 目录
 
-- [目录](#%e7%9b%ae%e5%bd%95)
-- [数组的本质](#%e6%95%b0%e7%bb%84%e7%9a%84%e6%9c%ac%e8%b4%a8)
-- [Array 构造方法](#array-%e6%9e%84%e9%80%a0%e6%96%b9%e6%b3%95)
-    - [（1）一个参数](#1%e4%b8%80%e4%b8%aa%e5%8f%82%e6%95%b0)
-    - [（2）多个参数](#2%e5%a4%9a%e4%b8%aa%e5%8f%82%e6%95%b0)
-- [Array 实例方法](#array-%e5%ae%9e%e4%be%8b%e6%96%b9%e6%b3%95)
+- [目录](#目录)
+- [数组的本质](#数组的本质)
+- [Array 构造方法](#array-构造方法)
+    - [（1）一个参数](#1一个参数)
+    - [（2）多个参数](#2多个参数)
+- [Array 实例方法](#array-实例方法)
     - [join()](#join)
     - [concat()](#concat)
     - [reverse()](#reverse)
@@ -17,9 +17,9 @@
     - [map()](#map)
     - [forEach()](#foreach)
     - [filter()](#filter)
-    - [some() 和 every()](#some-%e5%92%8c-every)
-    - [reduce() 和 reduceRight()](#reduce-%e5%92%8c-reduceright)
-- [总结](#%e6%80%bb%e7%bb%93)
+    - [some() 和 every()](#some-和-every)
+    - [reduce() 和 reduceRight()](#reduce-和-reduceright)
+- [总结](#总结)
 
 # 数组的本质
 
@@ -211,13 +211,13 @@ a // ["a", "b", "c"]
 `sort`方法对数组成员进行排序，默认是按照字典顺序排序，底层原理是快排。排序后，**原数组将被改变**。
 
 ```javascript
-;[10111, 1101, 111].sort() // [10111, 1101, 111]
+[10111, 1101, 111].sort() // [10111, 1101, 111]
 ```
 
 如果想让`sort`方法按照自定义方式排序，可以传入一个函数作为参数。
 
 ```javascript
-;[{ name: '张三', age: 30 }, { name: '李四', age: 24 }, { name: '王五', age: 28 }].sort(function(o1, o2) {
+[{ name: '张三', age: 30 }, { name: '李四', age: 24 }, { name: '王五', age: 28 }].sort(function(o1, o2) {
     return o1.age - o2.age //  表示按年纪从小到大，反之是从大到小
 })
 // [
@@ -232,7 +232,7 @@ a // ["a", "b", "c"]
 `map`方法将数组的所有成员依次传入参数函数，然后把每一次的执行结果组成一个新数组返回。该函数调用时，map 方法向它传入三个参数：当前成员、当前位置和数组本身。可以选择性省略参数。
 
 ```javascript
-;[1, 2, 3].map(function(elem, index, arr) {
+[1, 2, 3].map(function(elem, index, arr) {
     return elem * index
 })
 // [0, 2, 6]
@@ -242,7 +242,7 @@ a // ["a", "b", "c"]
 
 ```javascript
 // 所有数字取平方
-;[1, 2, 3].map(v => v ** 2) // [1, 4, 9]
+[1, 2, 3].map(v => v ** 2) // [1, 4, 9]
 
 // 所有数字转字符串
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -257,7 +257,7 @@ arr.map(String) // ['1', '2', '3', '4', '5', '6', '7', '8', '9']
 `forEach`的用法与`map`方法一致，参数是一个函数，该函数同样接受三个参数：当前值、当前位置、整个数组。
 
 ```javascript
-;[2, 5, 9].forEach(function(elem, index, arr) {
+[2, 5, 9].forEach(function(elem, index, arr) {
     console.log('[' + index + '] = ' + element)
 })
 // [0] = 2

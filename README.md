@@ -1,6 +1,6 @@
 # Blog 目录
 
-- [Blog 目录](#blog-%e7%9b%ae%e5%bd%95)
+- [Blog 目录](#blog-目录)
   - [HTML/CSS](#htmlcss)
   - [JavaScript](#javascript)
   - [HTTP](#http)
