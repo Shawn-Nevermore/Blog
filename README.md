@@ -17,6 +17,8 @@
 
 ## JavaScript
 
+- [DOM-事件](https://github.com/Shawn-Nevermore/Blog/blob/master/JavaScript/DOM-%E4%BA%8B%E4%BB%B6.md)
+- [jQuery-的简易实现思路](https://github.com/Shawn-Nevermore/Blog/blob/master/JavaScript/jQuery-%E7%9A%84%E7%AE%80%E6%98%93%E5%AE%9E%E7%8E%B0%E6%80%9D%E8%B7%AF.md)
 -   [JavaScript 原生函数之——Array](https://github.com/Shawn-Nevermore/Blog/blob/master/JavaScript/JavaScript%E5%8E%9F%E7%94%9F%E5%87%BD%E6%95%B0%E4%B9%8B%E2%80%94%E2%80%94Array.md)
 -   [JavaScript 中需要注意的运算符](https://github.com/Shawn-Nevermore/Blog/blob/master/JavaScript/JavaScript%E4%B8%AD%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E7%9A%84%E8%BF%90%E7%AE%97%E7%AC%A6.md)
 -   [原型与原型链的意识流探讨](https://github.com/Shawn-Nevermore/Blog/blob/master/JavaScript/%E5%8E%9F%E5%9E%8B%E4%B8%8E%E5%8E%9F%E5%9E%8B%E9%93%BE%E7%9A%84%E6%84%8F%E8%AF%86%E6%B5%81%E6%8E%A2%E8%AE%A8.md)
