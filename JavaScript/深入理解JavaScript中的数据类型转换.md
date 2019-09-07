@@ -1,21 +1,22 @@
 ![](https://upload-images.jianshu.io/upload_images/16527477-475bac4182bd7ef2.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 # 目录
-1.  概述
-2.  抽象值操作（Abstract Operations）
-    -  ToString
-    -  ToNumber
-    -  ToBoolean
-3.  显示强制类型转换
-    -  toString()
-    -  一元运算符（+ -）
-    -  parseInt()和parseFloat()
-    -  !!
-4.  隐式强制类型转换
-    -   二元运算符（+）
-    -  隐式转换为布尔值
-5.  转换为Oject
-6.  总结
+- [目录](#%e7%9b%ae%e5%bd%95)
+- [概述](#%e6%a6%82%e8%bf%b0)
+- [抽象值操作（Abstract Operations）](#%e6%8a%bd%e8%b1%a1%e5%80%bc%e6%93%8d%e4%bd%9cabstract-operations)
+  - [1. ToString](#1-tostring)
+  - [2. ToNumber](#2-tonumber)
+  - [3. ToBoolean](#3-toboolean)
+- [显示强制类型转换](#%e6%98%be%e7%a4%ba%e5%bc%ba%e5%88%b6%e7%b1%bb%e5%9e%8b%e8%bd%ac%e6%8d%a2)
+  - [toString()](#tostring)
+  - [一元运算符（+ -）](#%e4%b8%80%e5%85%83%e8%bf%90%e7%ae%97%e7%ac%a6)
+  - [parseInt()和parseFloat()](#parseint%e5%92%8cparsefloat)
+  - [!!](#)
+- [隐式强制类型转换](#%e9%9a%90%e5%bc%8f%e5%bc%ba%e5%88%b6%e7%b1%bb%e5%9e%8b%e8%bd%ac%e6%8d%a2)
+  - [二元运算符（+）](#%e4%ba%8c%e5%85%83%e8%bf%90%e7%ae%97%e7%ac%a6)
+  - [隐式转换为布尔值](#%e9%9a%90%e5%bc%8f%e8%bd%ac%e6%8d%a2%e4%b8%ba%e5%b8%83%e5%b0%94%e5%80%bc)
+- [转换为Object](#%e8%bd%ac%e6%8d%a2%e4%b8%baobject)
+- [总结](#%e6%80%bb%e7%bb%93)
 
 
 #  概述
