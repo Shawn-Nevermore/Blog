@@ -17,6 +17,7 @@
 
 ## JavaScript
 
+- [作用域和闭包](https://github.com/Shawn-Nevermore/Blog/blob/master/JavaScript/作用域和闭包.md)
 - [DOM-事件](https://github.com/Shawn-Nevermore/Blog/blob/master/JavaScript/DOM-%E4%BA%8B%E4%BB%B6.md)
 - [jQuery-的简易实现思路](https://github.com/Shawn-Nevermore/Blog/blob/master/JavaScript/jQuery-%E7%9A%84%E7%AE%80%E6%98%93%E5%AE%9E%E7%8E%B0%E6%80%9D%E8%B7%AF.md)
 -   [JavaScript 原生函数之——Array](https://github.com/Shawn-Nevermore/Blog/blob/master/JavaScript/JavaScript%E5%8E%9F%E7%94%9F%E5%87%BD%E6%95%B0%E4%B9%8B%E2%80%94%E2%80%94Array.md)
